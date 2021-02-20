@@ -3,6 +3,7 @@ import Header from './Header';
 import Board from './Board'
 import shells from '../shell-data'
 import './App.css';
+import WinOrLose from './WinOrLose'
 import { render } from '@testing-library/react';
 
 class App extends Component {
@@ -42,11 +43,10 @@ class App extends Component {
   render(){
     return (
       <section className="App">
-        {this.state.flipped.find(nut => nut.symbol === "💀") && <Header message="YOU LOSE!!!"/> }
+        <Header />
+        {this.state.flipped.find(nut => nut.symbol === "💀") && <WinOrLose message="YOU LOSE!!!"/> }
         
-        {(this.state.flipped.length === 2) && (!this.state.flipped.find(nut => nut.symbol === "💀")) && <Header message="YOU WIN!!!"/>}
-        
-        {(this.state.flipped.length <= 1) && (!this.state.flipped.find(nut => nut.symbol === "💀")) && <Header message="Choose a Coconut!"/> }
+        {(this.state.flipped.length === 2) && (!this.state.flipped.find(nut => nut.symbol === "💀")) && <WinOrLose message="YOU WIN!!!"/>}
         
         <Board nuts={this.state.coconuts} flipped={this.state.flipped} flipShell={ this.flipShell } />
       </section>

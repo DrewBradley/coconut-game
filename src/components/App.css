@@ -64,6 +64,11 @@ p {
   margin: auto;
 }
 
+.win-or-lose {
+  z-index: 2;
+  position: fixed;
+}
+
 @media screen and (max-width: 600px) {
   .shell-front,
   .shell-back {
