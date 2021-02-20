@@ -5,10 +5,11 @@
 .game-board {
   display: flex;
   flex-direction: row;
-  width: 90%;
+  max-width: 700px;
   margin: 5% auto 5% auto;
   justify-content: space-around;
-
+  align-items: center;
+  height: 50vh;
 }
 
 .shell {
@@ -23,10 +24,14 @@
   transition: 0.5s;
 }
 
-/* .shell:hover {
-  transform: rotateY(180deg);
+.title {
+  font-size: 3rem;
+}
 
-} */
+p {
+  font-size: 2rem;
+  margin: 0 0 5px 0;
+}
 
 .shell-front,
 .shell-back {
@@ -56,4 +61,13 @@
 
 .pearl {
   font-size: 4rem;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .shell-front,
+  .shell-back {
+    height: 100px;
+    width: 100px;
+  }
 }
