@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coconut-game/static/css/main.9dc86844.chunk.css",
+    "main.js": "/coconut-game/static/js/main.7c81854c.chunk.js",
+    "main.js.map": "/coconut-game/static/js/main.7c81854c.chunk.js.map",
+    "runtime-main.js": "/coconut-game/static/js/runtime-main.5577d603.js",
+    "runtime-main.js.map": "/coconut-game/static/js/runtime-main.5577d603.js.map",
+    "static/js/2.b8b725da.chunk.js": "/coconut-game/static/js/2.b8b725da.chunk.js",
+    "static/js/2.b8b725da.chunk.js.map": "/coconut-game/static/js/2.b8b725da.chunk.js.map",
+    "static/js/3.e0c7ee1e.chunk.js": "/coconut-game/static/js/3.e0c7ee1e.chunk.js",
+    "static/js/3.e0c7ee1e.chunk.js.map": "/coconut-game/static/js/3.e0c7ee1e.chunk.js.map",
+    "index.html": "/coconut-game/index.html",
+    "static/css/main.9dc86844.chunk.css.map": "/coconut-game/static/css/main.9dc86844.chunk.css.map",
+    "static/js/2.b8b725da.chunk.js.LICENSE.txt": "/coconut-game/static/js/2.b8b725da.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/coconut-game/static/media/coconut-outside-cutout.d6a66712.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5577d603.js",
+    "static/js/2.b8b725da.chunk.js",
+    "static/css/main.9dc86844.chunk.css",
+    "static/js/main.7c81854c.chunk.js"
+  ]
+}
