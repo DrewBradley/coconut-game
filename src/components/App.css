@@ -46,12 +46,18 @@ p {
 }
 
 .shell-front {
-  background-color: #bbb;
+  background: rgb(101,67,33);
+  background-image: url('../coconut-outside-cutout.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: black;
 }
 
 .shell-back {
   background-color: burlywood;
+  background-image: url('../coconut-inside-cutout.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   transform: rotateY(180deg);
   transition: 0.5s;
